@@ -12,7 +12,7 @@ config_version=4
 
 config/name="DonutCollisionPolygon2D"
 run/main_scene="res://example/example.tscn"
-config/icon="res://icon.png"
+config/icon="res://example/icon.png"
 
 [editor_plugins]
 

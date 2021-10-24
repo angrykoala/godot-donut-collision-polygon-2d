@@ -2,7 +2,7 @@
 
 [ext_resource path="res://example/example_area.gd" type="Script" id=1]
 [ext_resource path="res://addons/donut_collision_polygon2D/donut_collision_polygon2D.gd" type="Script" id=2]
-[ext_resource path="res://icon.png" type="Texture" id=3]
+[ext_resource path="res://example/icon.png" type="Texture" id=3]
 
 [node name="Example" type="Node2D"]
 

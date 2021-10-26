@@ -1,4 +1,5 @@
 tool
+class_name DonutCollisionPolygon2D
 extends CollisionPolygon2D
 
 export(float) var radius:=10.0 setget set_radius

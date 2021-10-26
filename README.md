@@ -8,6 +8,7 @@ This plugin creates a new Node type for a donut collision shape for 2D collision
 
 
 ## Instructions
+The asset can be douwnloaded from [Godot Asset Library](https://godotengine.org/asset-library/asset/1087) or [GitHub](https://github.com/angrykoala/godot-donut-collision-polygon-2d)
 
 1. Add the folder `donut_collision_polygon2D` to `addons/`.
 2. Activate the plugin in [Godot](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/installing_plugins.html).

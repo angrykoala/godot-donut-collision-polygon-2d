@@ -4,11 +4,11 @@ A donut-shaped collision shape for Godot.
 
 This plugin creates new Node types for donut collision shapes for 2D collisions.
 
-_Donut_
+_Donut_    
 ![Donut Example](screenshots/donut_example.png)
 
-_Donut Rectangle_
-![Donut Rectangle](screenshots/donut_rectangle_example.png)
+_Donut Rectangle_    
+![Donut Rectangle](screenshots/donut_rectangle.png)
 
 ## Instructions
 The asset can be downloaded from [Godot Asset Library](https://godotengine.org/asset-library/asset/1087) or [GitHub](https://github.com/angrykoala/godot-donut-collision-polygon-2d)

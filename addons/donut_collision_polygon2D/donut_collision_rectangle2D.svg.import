@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcwggi4xo00lm"
-path="res://.godot/imported/donut_collision_polygon2D.svg-0fdc380af0b85c7ded94473deba20d96.ctex"
+uid="uid://dn8hljsdwd42q"
+path="res://.godot/imported/donut_collision_rectangle2D.svg-222a24c943d585f6b4c186ac2ccdc1dd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/donut_collision_polygon2D/donut_collision_polygon2D.svg"
-dest_files=["res://.godot/imported/donut_collision_polygon2D.svg-0fdc380af0b85c7ded94473deba20d96.ctex"]
+source_file="res://addons/donut_collision_polygon2D/donut_collision_rectangle2D.svg"
+dest_files=["res://.godot/imported/donut_collision_rectangle2D.svg-222a24c943d585f6b4c186ac2ccdc1dd.ctex"]
 
 [params]
 

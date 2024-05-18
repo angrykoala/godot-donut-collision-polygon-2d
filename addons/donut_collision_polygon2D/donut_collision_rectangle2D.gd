@@ -1,7 +1,7 @@
 @tool
 class_name DonutCollisionRectangle
 extends CollisionPolygon2D
-
+## A Collider in the shape of a Rectangle with a hole in the middle
 
 @export var size := Vector2(10.0, 20.0):
 	set(new_size):

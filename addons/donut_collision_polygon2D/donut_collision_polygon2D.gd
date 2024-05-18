@@ -1,7 +1,7 @@
 @tool
 class_name DonutCollisionPolygon2D
 extends CollisionPolygon2D
-
+## A Collider in the shape of a Donut
 
 @export var radius: float = 10.0:
 	set(rad):

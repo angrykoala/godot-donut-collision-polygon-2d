@@ -12,9 +12,8 @@ config_version=5
 
 config/name="DonutCollisionPolygon2D"
 run/main_scene="res://example/example.tscn"
-config/features=PackedStringArray("4.0")
+config/features=PackedStringArray("4.2")
 config/icon="res://example/icon.png"
-config/tags=PackedStringArray()
 
 [editor_plugins]
 

@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://vogtjcpnjohc"]
+
+[ext_resource type="Script" path="res://example/example_area.gd" id="1_fnxl8"]
+[ext_resource type="Script" path="res://addons/donut_collision_polygon2D/donut_collision_rectangle2D.gd" id="2_xud1h"]
+[ext_resource type="Texture2D" uid="uid://xfkvttl8cxns" path="res://example/icon.png" id="3_qnowy"]
+
+[node name="ExampleSquare" type="Node2D"]
+
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource("1_fnxl8")
+
+[node name="DonutCollisionRectangle2D" type="CollisionPolygon2D" parent="Area2D"]
+polygon = PackedVector2Array(-160, -160, 160, -160, 160, 160, -160, 160, -160, -160, -140, 140, 140, 140, 140, -140, -140, -140, -140, 140)
+script = ExtResource("2_xud1h")
+size = Vector2(300, 300)
+width = 40.0
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="icon" type="Sprite2D" parent="."]
+scale = Vector2(3, 3)
+texture = ExtResource("3_qnowy")
+
+[connection signal="input_event" from="Area2D" to="Area2D" method="_on_input_event"]
+[connection signal="mouse_entered" from="Area2D" to="Area2D" method="_on_mouse_enter"]
+[connection signal="mouse_exited" from="Area2D" to="Area2D" method="_on_mouse_exit"]
